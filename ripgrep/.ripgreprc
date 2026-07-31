@@ -1,0 +1,20 @@
+# Add my 'map' type.
+--type-add=map:*.{map,mapxml}
+
+--color=always
+
+# Suppress all error messages related to opening and reading files.
+--no-messages
+
+# Apply the .ignore file globally.
+--ignore-file=<some-path>.ignore
+
+# Search hidden files / directories (e.g. dotfiles) by default.
+#--hidden
+
+# Using glob patterns to include/exclude files or folders.
+--glob=!**/artifacts/**
+--glob=!**/contract/**
+--glob=!**/reviews/**
+
+#--vimgrep
