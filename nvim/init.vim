@@ -36,4 +36,6 @@ nnoremap <Leader>wf :call GuiWindowFullScreen(1)<CR>
 nnoremap <Leader>tb yiw:te<CR>irg <C-\><C-n>pi<CR><C-\><C-n>
 nnoremap <Leader>tg :te<CR>irg <C-\><C-n>pi
 nnoremap <Leader>th :let @h=@+<CR>0yy:e <C-r>+<CR>/<C-r>h
+" TODO: doesn't work, check why
+nnoremap <Leader>mw :GuiFont JetBrains Mono:h14<CR> :set spell wrap linebreak breakindent<CR>
 tnoremap <Esc> <C-\><C-n>
